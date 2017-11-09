@@ -1,4 +1,4 @@
-# moredown
+# moredown [![GoDoc](https://godoc.org/github.com/bogem/moredown?status.svg)](https://godoc.org/github.com/bogem/moredown)
 
 moredown is a Markdown processor for Go.
 
@@ -10,15 +10,6 @@ and sanitization of user's input.
 
     go get -u github.com/bogem/moredown
 
-## Usage
+## Reference
 
-```go
-rendered := moredown.Markdown(markdownPage)
-```
-
-or
-
-```go
-rendered := moredown.MarkdownString(markdownPageString)
-```
-
+https://godoc.org/github.com/bogem/moredown
